@@ -13,6 +13,8 @@
 		15B9F0CE22F92F6500C8C0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B9F0CD22F92F6500C8C0E9 /* Assets.xcassets */; };
 		15B9F0D122F92F6500C8C0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B9F0CF22F92F6500C8C0E9 /* LaunchScreen.storyboard */; };
 		15B9F0D422F92F6500C8C0E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B9F0D322F92F6500C8C0E9 /* main.m */; };
+		15B9F0DC22F941D600C8C0E9 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B9F0DB22F941D600C8C0E9 /* DropitBehavior.m */; };
+		15B9F0DF22F9612400C8C0E9 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B9F0DE22F9612400C8C0E9 /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		15B9F0D022F92F6500C8C0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B9F0D222F92F6500C8C0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15B9F0D322F92F6500C8C0E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15B9F0DA22F941D600C8C0E9 /* DropitBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		15B9F0DB22F941D600C8C0E9 /* DropitBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
+		15B9F0DD22F9612400C8C0E9 /* BezierPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		15B9F0DE22F9612400C8C0E9 /* BezierPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				15B9F0CF22F92F6500C8C0E9 /* LaunchScreen.storyboard */,
 				15B9F0D222F92F6500C8C0E9 /* Info.plist */,
 				15B9F0D322F92F6500C8C0E9 /* main.m */,
+				15B9F0DA22F941D600C8C0E9 /* DropitBehavior.h */,
+				15B9F0DB22F941D600C8C0E9 /* DropitBehavior.m */,
+				15B9F0DD22F9612400C8C0E9 /* BezierPathView.h */,
+				15B9F0DE22F9612400C8C0E9 /* BezierPathView.m */,
 			);
 			path = Dropit;
 			sourceTree = "<group>";
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B9F0C922F92F6300C8C0E9 /* ViewController.m in Sources */,
+				15B9F0DC22F941D600C8C0E9 /* DropitBehavior.m in Sources */,
+				15B9F0DF22F9612400C8C0E9 /* BezierPathView.m in Sources */,
 				15B9F0D422F92F6500C8C0E9 /* main.m in Sources */,
 				15B9F0C622F92F6300C8C0E9 /* AppDelegate.m in Sources */,
 			);
